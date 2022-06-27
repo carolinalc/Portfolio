@@ -1,0 +1,56 @@
+
+.App {
+  text-align: center;
+  
+}
+
+.navbar{
+  margin-bottom: 50px;
+  background-color:aliceblue;
+} 
+
+#root{
+  min-height: 100vh !important;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-image: url("../public/image.jpg");
+}
+
+.name {
+  font-family: 'Tahoma';
+  font-size: 1000%;
+  text-shadow: 0px 0px 20px peachpuff
+}
+
+.aboutme{
+  font-size: 50%;
+  margin-top: 5%;  
+  padding: 0% 20% 2% 20%;
+}
+
+.selfie{
+  width: 250px;
+  border-radius: 100px;
+}
+
+.curriculum{
+  padding: 2% 20% 2% 20%;
+}
+
+.projects {
+  padding: 2% 20% 2% 20%;
+}
+
+.separation{
+  border-top: 10px dotted blue;
+}
+
+.cardText{
+  font-size: 200%;
+}
