@@ -47,7 +47,7 @@ function Projects() {
               Due to a lack of time, we had many features on the plan that we could not implement, and a few details to polish.
               The good is that we have clear, and located those task and know how to make them.
               I made this project with Maria Diez in a week and half.
-              <Nav.Link href="https://react-hotel-maria-carol.netlify.app/hotels."><strong>Click to navigate</strong></Nav.Link>
+              <Nav.Link href="https://react-hotel-maria-carol.netlify.app/"><strong>Click to navigate</strong></Nav.Link>
             </Card.Text>
           </Card.Body>
         </Card>

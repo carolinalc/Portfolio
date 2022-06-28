@@ -36,7 +36,7 @@ function Skills() {
 
           <Col>
             <Card>
-              <Card.Header> <strong>Solft skills</strong> </Card.Header>
+              <Card.Header> <strong>Soft skills</strong> </Card.Header>
               <Card.Body>
                 <ListGroup variant="flush">
                   <ListGroup>Resilient</ListGroup>
