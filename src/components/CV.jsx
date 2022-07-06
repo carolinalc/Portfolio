@@ -3,6 +3,13 @@ import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 
 function CV() {
+
+
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+
+
   return (
     <div className='curriculum'>
       <Card className="text-center">
@@ -21,7 +28,9 @@ function CV() {
         </Card.Body>
 
         <Card.Footer className="text-muted">
-          <a className='LinkCv' href="https://drive.google.com/file/d/1dlBAQT4PcI5WGFaEiaGMl7mmeAnRrWmg/view?usp=sharing" ><strong>Resume CV</strong></a>
+          <Nav.Link className='LinkCv' onClick={() => openInNewTab('https://drive.google.com/file/d/1dlBAQT4PcI5WGFaEiaGMl7mmeAnRrWmg/view?usp=sharing')}>
+            <strong>Resume CV</strong>
+          </Nav.Link>
         </Card.Footer>
 
       </Card>
