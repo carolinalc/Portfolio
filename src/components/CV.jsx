@@ -21,7 +21,7 @@ function CV() {
         </Card.Body>
 
         <Card.Footer className="text-muted">
-          <Nav.Link className='LinkCv' href="https://drive.google.com/file/d/1dlBAQT4PcI5WGFaEiaGMl7mmeAnRrWmg/view?usp=sharing" download><strong>Resume CV</strong></Nav.Link>
+          <a className='LinkCv' href="https://drive.google.com/file/d/1dlBAQT4PcI5WGFaEiaGMl7mmeAnRrWmg/view?usp=sharing" ><strong>Resume CV</strong></a>
         </Card.Footer>
 
       </Card>
