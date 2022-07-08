@@ -20,7 +20,7 @@ function CV() {
             <strong>Full Stack Web Development</strong>  <br /> Ironhack, from April 2022 to Jun 2022 <br /> <hr />
             9 week intensive web development Bootcamp. Acquisition of high capacities
             for the creation of web pages from the Backend and Frontend environment.
-            Realization of high performance projects. Technologies: JavaScript(ES6), React,MongoDB,
+            Realization of high performance projects. Technologies: JavaScript(ES6), React, MongoDB,
             Express, NodeJS, HTML, CSS, .
             Other technologies: Git, Postman, Trello, Stripe, Heroku, Netlify
             <br />
@@ -28,8 +28,11 @@ function CV() {
         </Card.Body>
 
         <Card.Footer className="text-muted">
-          <Nav.Link className='LinkCv' onClick={() => openInNewTab('https://drive.google.com/file/d/1dlBAQT4PcI5WGFaEiaGMl7mmeAnRrWmg/view?usp=sharing')}>
+          <Nav.Link className='LinkCv' onClick={() => openInNewTab('https://drive.google.com/file/d/1Phb9i31zGzFbtKRrXKwdgT_MGBx_oIZ_/view?usp=sharing')}>
             <strong>Resume CV</strong>
+          </Nav.Link>
+          <Nav.Link className='LinkCv' onClick={() => openInNewTab('https://drive.google.com/file/d/1NVHt49tMvWrHH9Z-jsoRxn3a5xBLaxlh/view?usp=sharing')}>
+            <strong>Cover Letter</strong>
           </Nav.Link>
         </Card.Footer>
 
