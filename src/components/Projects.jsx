@@ -44,7 +44,7 @@ function Projects() {
             </Card.Body>
           </Card>
 
-          <Card className="text-center">
+          {/* <Card className="text-center">
             <Card.Header><Card.Title><strong>React Hotel</strong> </Card.Title></Card.Header>
             <Card.Img variant="top" src="hotel.jpg" />
             <Card.Body>
@@ -56,7 +56,7 @@ function Projects() {
                 <Nav.Link onClick={() => openInNewTab('https://react-hotel-maria-carol.netlify.app/hotels')} ><strong>Click to navigate</strong></Nav.Link>
               </Card.Text>
             </Card.Body>
-          </Card>
+          </Card> */}
         </CardGroup>
       </Card>
     </div>
